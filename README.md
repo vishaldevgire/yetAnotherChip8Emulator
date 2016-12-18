@@ -1,2 +1,2 @@
 # yetAnotherChip8Emulator
-Chip8 emulator written in Java
+Chip8 emulator written in Java.
