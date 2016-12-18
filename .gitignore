@@ -2,3 +2,7 @@
 *.class
 *.jar
 *.iml
+.idea/
+out/
+target/
+
