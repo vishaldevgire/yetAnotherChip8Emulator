@@ -6,6 +6,4 @@ Run 'mvn package'
 
 Go to 'target' directory 
 
-Rename 'yetanotherchip8emulator-1.0.jar' to 'yace.jar' (for convenience)
-
-Execute 'java -jar yace.jar <chip8_rom_path>'
+Execute 'java -jar yetanotherchip8emulator-1.0.jar [chip8_rom_path]'
