@@ -29,7 +29,6 @@ class Main {
         UI window = new UI(chip8.gfx);
         window.addKeyListener(keyInput);
 
-        System.out.println("Joining my fate1");
         Runnable gameLoop = () -> {
             while (true) {
                 chip8.emulateCycle();
@@ -47,7 +46,6 @@ class Main {
         Thread gameThread = new Thread(gameLoop);
         gameThread.start();
         gameThread.join();
-        System.out.println("Joining my fate");
     }
 
     private static Callback<KeyEvent> keyReleasedHandler(final Chip8 chip8) {
